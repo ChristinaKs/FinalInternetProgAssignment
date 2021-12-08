@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <!--
+   
+   Author: Christina Kallas & Sebastien Seide
+   Date:   26/11/2021
+   
+   Filename: comments_page.html
+   -->
+   <meta charset="utf-8" />
+   <title>Characters</title>
+</head>
+<link href="events_layout.css" rel="stylesheet" />
+<link href="events_styles.css" rel="stylesheet" />
+<script src="events_timer.js" defer="defer"></script>
+
+<body>
+   <header>
+      <div class="backGround">
+         <div class="img">
+           <img src="headerBackground2.jpg" alt=""/>
+         </div>
+         <div class="img2">
+           <img src="2cbyxtc.jpg" alt=""/>
+         </div>
+      </div>
+      <nav class="horizontal">
+         <ul>
+            <li><a href="home_page.html">Home Page</a></li>
+            <li><a href="terminology_page.html">Terminology</a></li>
+            <li><a href="characters_page.html">Characters</a></li>
+            <li><a href="buys_page.html">Buys</a></li>
+            <li><a href="events_page.html">Events</a></li>
+            <li><a href="comments_page.html">Comments</a></li>
+         </ul>
+      </nav>
+   </header>
+   <article>
+      <h1>Will Include Javascript, GoogleMaps</h1>
+      <h2>Join Us!</h2>
+      <p>There will be an event on the 20th of December, 2021. This event will be a gathering of Valorant players, seasoned and beginners, and will provide more 
+         information on how to be a better Valorant player for those who are interested. Don't miss us on this event at 5:00 PM EST time! 
+      </p>
+      <div id="countdown">
+         <div><span id="dLeft">58</span><br />Days</div>
+         <div><span id="hLeft">10</span><br />Hrs</div>
+         <div><span id="mLeft">14</span><br />Mins</div>
+         <div><span id="sLeft">48</span><br />Secs</div>
+      </div>
+
+      <div class="mapouter">
+         <h2>Location</h2>
+         <p>This event will be held at Vanier College, located at 821 Sainte-Croix Avenue, Montreal, Quebec, Canada. Postal code is H4L 3X9.</p>
+         <div class="gmap_canvas">
+            <iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Vanier%20College%20821%20Sainte%20Croix%20Ave,%20Saint-Laurent,%20Quebec%20H4L%203X9&t=k&z=15&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <style>.mapouter{position:relative ; text-align:left; height:500px; width:900px;}</style>
+            <style>.gmap_canvas {overflow: none; background:none!important; height:500px; width:900px;}</style>
+         </div>
+      </div>
+
+      <div>
+         <br><br><br><br><br><br>
+         <h2>Important!</h2>
+         <p>Please don't forget this event is for everyone, beginner to expert! We hope to see you soon.</p>
+      </div>
+   </article>
+   <footer>Valorant Gameplay</footer>
+</body>
+</html>

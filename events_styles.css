@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/*
+   
+   Filename: comments_styles.css
+
+*/
+
+/* General Styles */
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+html {
+   background-image: url("eventsBackground.jpg");
+}
+
+
+/* Body Styles */
+body {
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(100, 125, 148);
+   font-family: Verdana, Geneva, Arial, sans-serif; 
+   font-size: 16px;   
+   width: 1152px;
+}
+
+body > header > img {
+   display: block;
+   width: 100%;
+}
+
+.img2 img{
+   width: 100px;
+   height: 100px;
+   margin-left: 1052px;
+   margin-top: -44px;
+}
+
+.img img{
+   width: 1152px;
+   height: 282px;
+   margin-left: 0px;
+}
+
+article{
+   margin-top: -63px;
+}
+
+aside{
+   margin-top: -63px;
+}
+
+/* Horizontal Navigation List Styles */
+nav.horizontal ul li {
+   position: relative;
+   background-color: rgb(26, 58, 87);
+   display: block;
+   font-size: 15px;
+   float: left;
+   line-height: 60px;
+   height: 60px;
+   width: 175.345px;
+   top: -62px;
+}
+
+nav.horizontal a {
+   display: block;
+   text-align: center;
+   color: black;
+   text-decoration: none;
+}
+   
+nav.horizontal a:link, nav.horizontal:visited {
+   color: rgb(0, 0, 0);
+}
+
+nav.horizontal a:hover, nav.horizontal:active {
+   background-color: rgb(4, 133, 255);
+}
+
+
+/* Footer Styles */
+
+body > footer {
+   background-color: rgb(0, 0, 0);
+   clear: both;
+   color: rgb(157, 173, 216);
+   font-size: 12px;
+   line-height: 24px;
+   text-align: center;
+}
+
+
+/* Article Styles */
+
+body > article {
+   background-color: rgb(46, 79, 109);
+}
+
+body > article > h1 {
+   font-size: 1.5em;
+   margin: 20px;
+}
+
+body > article > p {
+   margin: 20px;
+}  
+
+
+
+/* Aside Styles */
+
+body > aside {
+   float: left;
+   width: 768px;
+}
+
+body > aside > h1 {
+   font-size: 1.5em;
+   margin: 20px;
+}
+
+aside p {
+   line-height: 1.4em;
+   margin: 20px;
+}
+
+
+.gmap_canvas{
+   margin-top: 20px;
+   margin-left: 126px;
+}

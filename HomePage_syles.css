@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*
+   
+   Filename: homePage_styles.css
+
+*/
+
+/* General Styles */
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+html {
+    background-image: url("homepageBackground.jpg");
+}
+
+ 
+.img2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 1052px;
+    margin-top: -44px;
+}
+
+.img img{
+    width: 1152px;
+    height: 282px;
+    margin-left: 0px;
+}
+
+header iframe{
+    margin-top: -63px;
+    padding-bottom: 50px;
+}
+
+/* Body Styles */
+body {
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(100, 125, 148);
+   font-family: Verdana, Geneva, Arial, sans-serif; 
+   font-size: 16px;   
+   width: 1152px;
+}
+
+body > header > img {
+   display: block;
+}
+
+.Valorant_Gameplay{
+    display: table;
+}
+
+iframe{
+    float: left;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+ 
+/* Horizontal Navigation List Styles */
+nav.horizontal ul li {
+    position: relative;
+    background-color: rgb(26, 58, 87);
+    display: block;
+    font-size: 15px;
+    float: left;
+    line-height: 60px;
+    height: 60px;
+    width: 175.345px;
+    top: -62px;
+}
+
+nav.horizontal a {
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+    
+nav.horizontal a:link, nav.horizontal:visited {
+    color: rgb(0, 0, 0);
+}
+ 
+nav.horizontal a:hover, nav.horizontal:active {
+    background-color: rgb(4, 133, 255);
+}
+
+
+.Lasts{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.Valorant_Champions_Bundle{
+    flex: 1;
+    padding: 10px;
+}
+
+.Valorant_PatchNotes{
+    flex: 1;
+    padding: 10px;
+}
+
+.Valorant_Champions_Series{
+    flex: 1;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .Lasts{
+        flex-direction: column;
+    }
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    clear: both;
+    color: rgb(157, 173, 216);
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}

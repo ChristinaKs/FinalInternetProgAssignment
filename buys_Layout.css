@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/*
+   Author: Christina Kallas & Sebastien Seide
+   Date: 20/11/2021
+   
+   Filename: homePage_layout.css
+
+*/
+
+
+/* Article Styles */
+article {
+   float: left;
+   width: 384px;
+}
+
+
+
+/* First Line and Drop Cap Styles */
+article p:first-of-type::first-line {
+   font-size: 1.25em;
+   font-variant: small-caps;
+}
+  
+article p:first-of-type::first-letter {
+   font-size: 4em;
+   font-family: serif;
+   float: left;
+   line-height: 0.8em;
+   margin-right: 5px;
+   margin-bottom: 5px;
+}
+

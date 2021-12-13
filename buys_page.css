@@ -2,7 +2,7 @@
 
 /*
    
-   Filename: homePage_styles.css
+   Filename: buysPage_styles.css
 
 */
 
@@ -24,8 +24,21 @@ li, main, nav, ol, p, section, span, ul {
 }
 
 html {
-    background-image: url("homepageBackground.jpg");
+    background-image: url("buysBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.ValorantWeapons{
+    text-align: justify;
+    padding-right: 21px;
+}
+
+.ValorantPistolBuys{
+    text-align: justify;
+    padding-right: 21px;
+}
+
 
 .img2 img{
     width: 100px;

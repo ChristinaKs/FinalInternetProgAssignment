@@ -136,99 +136,7 @@ nav.horizontal a:hover, nav.horizontal:active {
     }
 }
 
-@media only screen and (min-width: 769px) { 
-body {
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(100, 125, 148);
-        font-family: Verdana, Geneva, Arial, sans-serif; 
-        font-size: 16px;   
-        width: 1152px;
-    }
-    .img2 img{
-        width: 100px;
-        height: 100px;
-        margin-left: 1052px;
-        margin-top: -44px;
-    }
-    .img img{
-        width: 1152px;
-        height: 282px;
-        margin-left: 0px;
-    }
-    .ValoShorts iframe{
-        min-width: 1152px;
-        min-height: 481px;
-    }
-    body > header > img {
-        display: block;
-     }
-     
-     .Valorant_Gameplay{
-         display: table;
-     }
-     
-     .Valorant_Gameplay iframe{
-        float: left;
-        padding-bottom: 5px;
-        padding-right: 20px;
-        width: 180px;
-        height: auto;
-    }
-
-     nav.horizontal ul li {
-        position: relative;
-        background-color: rgb(26, 58, 87);
-        display: block;
-        font-size: 15px;
-        float: left;
-        line-height: 60px;
-        height: 60px;
-        width: 175.345px;
-        top: -62px;
-    }
-    
-    nav.horizontal a {
-        display: block;
-        text-align: center;
-        color: black;
-        text-decoration: none;
-    }
-        
-    nav.horizontal a:link, nav.horizontal:visited {
-        color: rgb(0, 0, 0);
-    }
-     
-    nav.horizontal a:hover, nav.horizontal:active {
-        background-color: rgb(4, 133, 255);
-    }
-    
-    .Lasts{
-        width: 100%;
-        display: flex;
-        padding: 50px;
-        box-sizing: border-box;
-        flex-direction: row;
-    }
-
-    .Valorant_Champions_Bundle{
-        flex: 1;
-        padding: 10px;
-    }
-    
-    .Valorant_PatchNotes{
-        flex: 1;
-        padding: 10px;
-    }
-    
-    .Valorant_Champions_Series{
-        flex: 1;
-        padding: 10px;
-    }
-}
-
-
-@media only screen and (min-width: 1152px) { 
+@media only screen and (min-width: 768px) { 
     body {
         margin-left: auto;
         margin-right: auto;
@@ -264,8 +172,8 @@ body {
         float: left;
         padding-bottom: 5px;
         padding-right: 20px;
-        width: 180px;
-        height: auto;
+        width: 560px;
+        height: 315px;
     }
 
      nav.horizontal ul li {

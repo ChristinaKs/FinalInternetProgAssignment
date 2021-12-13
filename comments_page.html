@@ -36,11 +36,21 @@
       </nav>
    </header>
    <article>
-      <h1>Will Include Javascript, twitter, user control</h1>
-      <h2>Hopefully this will be a Q&A forum, if not - it will be a comments form thatll look like its sent to an email</h2>
-      
-      <div id="countdownTimer"></div>
+      <div id="leaveAComment">
+         <h1>Feel Free to Leave us a Comment!</h1>
+         <form action="commentsPHP.php" method="post">
+            <label> Alias: <br><input type="text" name="name"><br></label>
+            <label> Comment: <br><textarea cols="45" rows="5" name="mes"></textarea></label><br>
+            <input type="button" name="post" value="Post">
+         </form>
+         <php>
+            include("commentsPHP.php");
+         </php>
+   </div>
    </article>
    <footer>Valorant Gameplay</footer>
 </body>
 </html>
+
+
+

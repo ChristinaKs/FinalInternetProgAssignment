@@ -50,6 +50,13 @@ article{
    margin-top: -63px;
 }
 
+article > h1{
+   text-align: center;
+}
+article > h3{
+   text-align: center;
+}
+
 aside{
    margin-top: -63px;
 }

@@ -30,6 +30,9 @@ div#joinus p:first-of-type::first-letter {
    line-height: 0.8em;
    margin-right: 5px;
    margin-bottom: 5px;
+   padding-left: 21px;
+   padding-right: 21px;
+   text-align: justify;
 }
 
 /* Styles for the Countdown Clock */
@@ -59,14 +62,30 @@ div#countdown div {
 }
 
 div#countdown div span {
-   font-size: 2em;   
+   font-size: 2em; 
+   font-family: 'Courier New';
 }
 
+.mapouter{
+   padding-left: 21px;
+   padding-right: 21px;
+   text-align: justify;
+}
+
+div#socials{
+   padding-left: 21px;
+   padding-right: 21px;
+   text-align: justify;
+}
 
 div#twitter{
+   padding-left: 21px;
+   padding-right: 21px;
    text-align: center;
 }
 
 div#othersocials{
+   padding-left: 21px;
+   padding-right: 21px;
    text-align: center;
 }

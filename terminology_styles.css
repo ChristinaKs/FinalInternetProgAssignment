@@ -131,6 +131,7 @@ div#bind{
    color: rgb(187, 187, 187);
    margin-left: 21px;
    margin-right: 21px;
+   text-align: justify;
 }
 
 div#breeze{
@@ -145,6 +146,7 @@ div#ascent{
    color: rgb(187, 187, 187);
    margin-left: 21px;
    margin-right: 21px;
+   text-align: justify;
 }
 
 div#split{
@@ -159,6 +161,7 @@ div#icebox{
    color: rgb(187, 187, 187);
    margin-left: 21px;
    margin-right: 21px;
+   text-align: justify;
 }
 
 div#fracture{
@@ -173,6 +176,7 @@ div#haven{
    color: rgb(187, 187, 187);
    margin-left: 21px;
    margin-right: 21px;
+   text-align: justify;
 }
 
 
@@ -207,6 +211,7 @@ div#breeze2{
    color: rgb(0, 0, 0);
    margin-left: 21px;
    margin-right: 21px;
+   text-align: justify;
 }
 
 div#ascent2{
@@ -221,6 +226,7 @@ div#split2{
    color: rgb(0, 0, 0);
    margin-left: 21px;
    margin-right: 21px;
+   text-align: justify;
 }
 
 div#icebox2{
@@ -235,6 +241,7 @@ div#fracture2{
    color: rgb(0, 0, 0);
    margin-left: 21px;
    margin-right: 21px;
+   text-align: justify;
 }
 
 div#haven2{

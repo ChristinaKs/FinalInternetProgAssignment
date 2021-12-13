@@ -27,6 +27,19 @@ html {
     background-image: url("homepageBackground.jpg");
 }
 
+.AboutVal{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ChampBundleDesc{
+    text-align: justify;
+}
+
+.newCharacter{
+    text-align: justify;
+}
  
 .img2 img{
     width: 100px;

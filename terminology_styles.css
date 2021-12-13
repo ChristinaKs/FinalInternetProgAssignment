@@ -39,8 +39,8 @@ body {
    margin-right: auto;
    background-color: rgb(46, 79, 109);
    font-family: Verdana, Geneva, Arial, sans-serif; 
-   font-size: 16px;   
-   width: 1152px;
+   font-size: .7rem;   
+   width: 330px;
 }
 
 body > header > img {
@@ -56,8 +56,8 @@ body > header > img {
 }
 
 .img img{
-   width: 1152px;
-   height: 282px;
+   width: 330px;
+   height: 92px;
    margin-left: 0px;
 }
 
@@ -74,11 +74,11 @@ nav.horizontal ul li {
    position: relative;
    background-color: rgb(26, 58, 87);
    display: block;
-   font-size: 15px;
+   font-size: 0.7rem;
    float: left;
-   line-height: 60px;
-   height: 60px;
-   width: 175.345px;
+   line-height: 30px;
+   height: 30px;
+   width: 110px;
    top: -62px;
 }
 
@@ -115,67 +115,70 @@ body > footer {
 body > article {
    background-color:  rgb(100, 125, 148);
    height: 100%;
+   width: 150px;
+   font-size: 0.5rem;
 }
 
 body > article > h1 {
-   font-size: 1.5em;
-   margin: 20px;
+   font-size: 0.5rem;
+   margin: 15px;
 }
 
 body > article > p {
-   margin: 20px;
+   margin: 15px;
 }  
 
 div#bind{
-   height: 350px;
+   height: 100px;
    color: rgb(187, 187, 187);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
    text-align: justify;
 }
 
 div#breeze{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
+   
 }
 
 div#ascent{
-   height: 350px;
+   height: 100px;
    color: rgb(187, 187, 187);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
    text-align: justify;
 }
 
 div#split{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
 }
 
 div#icebox{
-   height: 350px;
+   height: 100px;
    color: rgb(187, 187, 187);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
    text-align: justify;
 }
 
 div#fracture{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
 }
 
 div#haven{
-   height: 350px;
+   height: 100px;
    color: rgb(187, 187, 187);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
    text-align: justify;
 }
 
@@ -185,68 +188,275 @@ div#haven{
 
 body > aside {
    float: left;
-   width: 576px;
+   width: 330px;
+   font-size: 0.5rem;
 }
 
 body > aside > h1 {
-   font-size: 1.5em;
+   font-size: 0.5em;
    color: rgb(46, 79, 109);
-   margin: 20px;
+   margin: 100px;
 }
 
 aside p {
-   line-height: 1.4em;
-   margin: 20px;
+   line-height: 0.7em;
+   margin: 100px;
 }
 
 div#bind2{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
 }
 
 div#breeze2{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
    text-align: justify;
 }
 
 div#ascent2{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
 }
 
 div#split2{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
    text-align: justify;
 }
 
 div#icebox2{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
 }
 
 div#fracture2{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
    text-align: justify;
 }
 
 div#haven2{
-   height: 350px;
+   height: 100px;
    color: rgb(0, 0, 0);
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 4px;
+   margin-right: 4px;
+}
+
+@media only screen and (min-width: 768px) { 
+   body {
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgb(46, 79, 109);
+      font-family: Verdana, Geneva, Arial, sans-serif; 
+      font-size: 16px;   
+      width: 1152px;
+   }
+   
+   body > header > img {
+      display: block;
+      width: 100%;
+   }
+   
+   .img2 img{
+      width: 100px;
+      height: 100px;
+      margin-left: 1052px;
+      margin-top: -44px;
+   }
+   
+   .img img{
+      width: 1152px;
+      height: 282px;
+      margin-left: 0px;
+   }
+   
+   article{
+      margin-top: -63px;
+   }
+   
+   aside{
+      margin-top: -63px;
+   }
+
+   nav.horizontal ul li {
+      position: relative;
+      background-color: rgb(26, 58, 87);
+      display: block;
+      font-size: 15px;
+      float: left;
+      line-height: 60px;
+      height: 60px;
+      width: 175.345px;
+      top: -62px;
+   }
+   
+   nav.horizontal a {
+      display: block;
+      text-align: center;
+      color: black;
+      text-decoration: none;
+   }
+      
+   nav.horizontal a:link, nav.horizontal:visited {
+      color: rgb(0, 0, 0);
+   }
+   
+   nav.horizontal a:hover, nav.horizontal:active {
+      background-color: rgb(4, 133, 255);
+   }
+
+   body > footer {
+      background-color: rgb(0, 0, 0);
+      clear: both;
+      color: rgb(157, 173, 216);
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+   }
+   body > article {
+      background-color:  rgb(100, 125, 148);
+      height: 100%;
+   }
+   
+   body > article > h1 {
+      font-size: 1.5em;
+      margin: 20px;
+   }
+   
+   body > article > p {
+      margin: 20px;
+   }  
+   
+   div#bind{
+      height: 350px;
+      color: rgb(187, 187, 187);
+      margin-left: 21px;
+      margin-right: 21px;
+      text-align: justify;
+   }
+   
+   div#breeze{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+   }
+   
+   div#ascent{
+      height: 350px;
+      color: rgb(187, 187, 187);
+      margin-left: 21px;
+      margin-right: 21px;
+      text-align: justify;
+   }
+   
+   div#split{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+   }
+   
+   div#icebox{
+      height: 350px;
+      color: rgb(187, 187, 187);
+      margin-left: 21px;
+      margin-right: 21px;
+      text-align: justify;
+   }
+   
+   div#fracture{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+   }
+   
+   div#haven{
+      height: 350px;
+      color: rgb(187, 187, 187);
+      margin-left: 21px;
+      margin-right: 21px;
+      text-align: justify;
+   }
+   body > aside {
+      float: left;
+      width: 576px;
+   }
+   
+   body > aside > h1 {
+      font-size: 1.5em;
+      color: rgb(46, 79, 109);
+      margin: 20px;
+   }
+   
+   aside p {
+      line-height: 1.4em;
+      margin: 20px;
+   }
+   
+   div#bind2{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+   }
+   
+   div#breeze2{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+      text-align: justify;
+   }
+   
+   div#ascent2{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+   }
+   
+   div#split2{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+      text-align: justify;
+   }
+   
+   div#icebox2{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+   }
+   
+   div#fracture2{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+      text-align: justify;
+   }
+   
+   div#haven2{
+      height: 350px;
+      color: rgb(0, 0, 0);
+      margin-left: 21px;
+      margin-right: 21px;
+   }
 }

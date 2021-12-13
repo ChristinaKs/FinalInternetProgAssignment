@@ -40,6 +40,11 @@ html {
     margin-left: 0px;
 }
 
+#valowep img {
+    margin-top: -62px;
+    padding-bottom: 50px;
+}
+
 /* Body Styles */
 body {
     margin-left: auto;
@@ -57,6 +62,30 @@ body {
  .Valorant_Gameplay{
      display: table;
  }
+
+
+ body > div {
+     float: left;
+ }
+
+.ValorantWeapons{
+    display: table;
+}
+
+iframe{
+    float: left;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+#ValorantFinal {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#ValorantFinal h1{
+    text-align: center;
+}
 
  /* Horizontal Navigation List Styles */
 nav.horizontal ul li {

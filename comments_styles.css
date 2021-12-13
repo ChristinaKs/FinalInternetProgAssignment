@@ -120,3 +120,31 @@ body > article > p {
    margin: 20px;
 }  
 
+/*Forms Styles*/
+div#name{
+   text-align: center;
+}
+
+div#radios{
+   text-align: center;
+}
+
+div#fieldset{
+   text-align: center;
+   margin-left: 380px;
+}
+
+div#submit{
+   text-align: center;
+}
+
+form{
+   text-align: center;
+}
+
+div#text{
+   padding-right: 21px;
+   padding-left: 21px;
+   padding-top: 21px;
+   text-align: justify;
+}

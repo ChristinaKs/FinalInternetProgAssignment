@@ -36,17 +36,43 @@
       </nav>
    </header>
    <article>
-      <div id="leaveAComment">
-         <h1>Feel Free to Leave us a Comment!</h1>
-         <form action="commentsPHP.php" method="post">
-            <label> Alias: <br><input type="text" name="name"><br></label>
-            <label> Comment: <br><textarea cols="45" rows="5" name="mes"></textarea></label><br>
-            <input type="button" name="post" value="Post">
-         </form>
-         <?php
-         include("commentsPHP.php");
-         ?>
-   </div>
+      <section>
+         <div id="text">
+            <h1>Feel Free to Leave Us a Comment</h1>
+            <p>Thank you for visiting our website and interacting with it. We hope that you have enjoyed your time here 
+               and learned a lot from the diverse information and videos presented on the site. If you enjoyed our website,
+               or have some complaints or tips on how to make it better, feel free to put down some comments that will 
+               be emailed to us. We will respond as fast as we can. Once again, thank you for visiting your online Valorant 
+               help website. 
+               Note that all fields marked with '*' are mandatory to leave us a comment!<br><br>
+         </div>
+         
+            <form action="" method="post">
+               <div id="name">
+                  <label for="nameBox">Alias*</label>
+                  <input type="text" id="nameBox" name="custName" placeholder="Enter your name or gamertag" required size="30px"><br><br>
+               </div>
+               <div id="radios">
+                   <input type="radio" id="getBetter" name="tip" checked>
+                   <label for="getBetter">Tip to get better</label> 
+                   <input type="radio" id="doingGreat" name="tip">
+                   <label for="doingGreat">I want to praise the website</label>
+               </div>
+               <br>
+               <div id="fieldset">
+                  <fieldset style="width: 360px;">
+                     <legend>Comment</legend>
+                     <textarea id="commentBox" name="commentBox" placeholder="Enter your comment" required rows="7" cols="45"></textarea>
+                  </fieldset>
+               </div>
+               <br>
+               <div id="submit">
+                  <input type="submit" value="Submit Comment">
+               </div>
+             </form>
+             <br>
+            
+      </section>
    </article>
    <footer>Valorant Gameplay</footer>
 </body>

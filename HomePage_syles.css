@@ -11,7 +11,7 @@
 address, article, aside, blockquote, body, cite, 
 div, dl, dt, dd, em, figcaption, figure, footer, 
 h1, h2, h3, h4, h5, h6, header, html, img, 
-li, main, nav, ol, p, section, span, ul {
+li, main, nav, ol, p, section, span, ul, iframe {
    margin: 0;
    padding: 0;
    border: 0;
@@ -41,11 +41,11 @@ html {
     margin-left: 0px;
 }
 
-header iframe{
-    margin-top: -63px;
+.ValoShorts iframe{
+    margin-top: -62px;
     padding-bottom: 50px;
     width: 330px;
-    height: auto;
+    height: 90;
 }
 
 /* Body Styles */
@@ -70,7 +70,7 @@ body > header > img {
     padding-right: 4px;
 }
 
-iframe{
+.Valorant_Gameplay iframe{
     float: left;
     padding-bottom: 5px;
     padding-right: 20px;
@@ -106,7 +106,6 @@ nav.horizontal a:hover, nav.horizontal:active {
     background-color: rgb(4, 133, 255);
 }
 
-
 .Lasts{
     width: 100%;
     display: flex;
@@ -130,17 +129,15 @@ nav.horizontal a:hover, nav.horizontal:active {
     padding: 10px;
 }
 
+
 @media screen and (max-width: 768px){
     .Lasts{
         flex-direction: column;
     }
 }
-/* ===============================
-   Mobile Styles: 0px to 640px 
-   ===============================
-*/
-@media only screen and (max-width: 640px) {
-    body {
+
+@media only screen and (min-width: 769px) { 
+body {
         margin-left: auto;
         margin-right: auto;
         background-color: rgb(100, 125, 148);
@@ -159,9 +156,9 @@ nav.horizontal a:hover, nav.horizontal:active {
         height: 282px;
         margin-left: 0px;
     }
-    header iframe{
-        margin-top: -63px;
-        padding-bottom: 50px;
+    .ValoShorts iframe{
+        min-width: 1152px;
+        min-height: 481px;
     }
     body > header > img {
         display: block;
@@ -171,11 +168,14 @@ nav.horizontal a:hover, nav.horizontal:active {
          display: table;
      }
      
-     iframe{
-         float: left;
-         padding-bottom: 5px;
-         padding-right: 20px;
-     }
+     .Valorant_Gameplay iframe{
+        float: left;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        width: 180px;
+        height: auto;
+    }
+
      nav.horizontal ul li {
         position: relative;
         background-color: rgb(26, 58, 87);
@@ -227,6 +227,7 @@ nav.horizontal a:hover, nav.horizontal:active {
     }
 }
 
+
 @media only screen and (min-width: 1152px) { 
     body {
         margin-left: auto;
@@ -247,9 +248,9 @@ nav.horizontal a:hover, nav.horizontal:active {
         height: 282px;
         margin-left: 0px;
     }
-    header iframe{
-        margin-top: -63px;
-        padding-bottom: 50px;
+    .ValoShorts iframe{
+        min-width: 1152px;
+        min-height: 481px;
     }
     body > header > img {
         display: block;
@@ -259,11 +260,14 @@ nav.horizontal a:hover, nav.horizontal:active {
          display: table;
      }
      
-     iframe{
-         float: left;
-         padding-bottom: 5px;
-         padding-right: 20px;
-     }
+     .Valorant_Gameplay iframe{
+        float: left;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        width: 180px;
+        height: auto;
+    }
+
      nav.horizontal ul li {
         position: relative;
         background-color: rgb(26, 58, 87);
